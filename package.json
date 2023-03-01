@@ -1,0 +1,23 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage for Studio Events provider and services.",
+  "main": "scr/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Henrique-Penha/studion.git)"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Henrique Penha",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
