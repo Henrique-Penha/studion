@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
 
 * {
     box-sizing: border-box;
@@ -21,7 +23,7 @@ body {
 header,
 main,
 footer {
-    overflow-x:hidden;
+    overflow-y: hidden;
 }
 
 .container{
@@ -268,3 +270,103 @@ ul{
     background: unset;
 }
 
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 2.75rem 3.75rem;
+}
+
+.footer .logo-studion {
+    justify-self: start;
+    margin: 0;
+}
+
+.logo-studion__subtitle {
+    display: block;
+}
+
+.footer__form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 9ch auto;
+    gap: 1.125rem;
+}
+
+.footer__form label {
+    font-size: .875rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer__email {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    width: 100%;
+}
+
+.footer__form input {
+    width: 100%;
+    background-color: var(--color-primary);
+    border: unset;
+    padding: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.footer__form input::placeholder {
+    color:#000;
+}
+
+.footer__form input:focus {
+    outline: unset;
+}
+
+.footer__form button {
+    cursor: pointer;
+    border: unset;
+    height: 100%;
+    transition: 0.3s all ease;
+}
+
+.footer__form button:hover {
+    color: #fff;
+    background-color: var(--color-copy);
+}
+
+.footer__social {
+    justify-self: end;
+}
+
+.footer__social a,
+.footer__social a:visited,
+.footer__social a:active {
+    color: #fff;
+    margin-left: .2rem;
+}
+
+.footer__social a .fa-twitter,
+.footer__social a:visited .fa-twitter,
+.footer__social a:active .fa-twitter {
+    color: #000;
+}
+
+.footer hr {
+    border-color: #fff4;
+    margin: 0;
+}
+
+.footer p {
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 300;
+    margin: 1.5rem;
+}
