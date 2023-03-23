@@ -1,0 +1,56 @@
+.show__container {
+    margin: 87px 300px;
+}
+
+.show__container div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+
+.show img,
+.show__arena img {
+    position: relative;
+    width: 190px;
+    height: 187px;
+}
+
+.show h3,
+.show__arena h3 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    height: 10px;
+}
+
+.show span,
+.show__arena span {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+  
+}
+
+
+.show p,
+.show__arena p {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+
+.show i,
+.show__arena i {
+    color: var(--color-primary);
+}
+
+.show button,
+.show__arena button {
+    float: right;
+}
