@@ -1,0 +1,36 @@
+.events-hero {
+    position: relative;
+    height: 34.625rem;
+}
+
+.events-hero__background {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    object-position: center;
+}
+
+.events-hero__copy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    padding: 7rem 1.875rem;
+}
+
+.events-hero__copy h2 {
+    margin: 0;
+    margin-bottom: 3rem;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    letter-spacing: -.3125rem;
+    color: var(--color-primary);
+}
+
+.events-hero__copy p {
+    margin: 0;
+    font-size: .9375rem;
+    line-height: 1.875rem;
+    color: var(--color-copy--alt);
+
+}
