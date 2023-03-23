@@ -1,11 +1,16 @@
 .show__container {
-    margin: 87px 300px;
+    margin: 87px 200px;
 }
 
-.show__container div {
+.show {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    
+    grid-template-columns: 0fr 2fr;
+    column-gap: 35px;
+}
+
+.columns__left {
+    display: flex;
+    flex-direction: column;
 }
 
 .show img,
@@ -19,17 +24,18 @@
 .show__arena h3 {
     font-size: 20px;
     letter-spacing: 4px;
+    line-height: 35px;
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-primary);
-    height: 10px;
+    margin: 30px 0 0 0;
 }
 
 .show span,
 .show__arena span {
     font-size: 15px;
     letter-spacing: 3px;
-    line-height: 18px;
+    line-height: 35px;
     font-weight: 700;
     font-family: 'Montserrat';
   
@@ -40,8 +46,10 @@
 .show__arena p {
     font-size: 17px;
     line-height: 27px;
+    max-width: 55ch;
     font-weight: 400;
     font-family: 'Roboto';
+    margin: 0;
 }
 
 
@@ -50,7 +58,13 @@
     color: var(--color-primary);
 }
 
-.show button,
-.show__arena button {
+.show button {
     float: right;
+    padding: 10px;
+    position: relative;
+    top: -60px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 24px;
 }

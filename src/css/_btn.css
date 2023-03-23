@@ -38,3 +38,8 @@
     background: unset;
 }
 
+.btn--list {
+    background-color: var(--color-primary);
+    color: #fff;
+    
+}
