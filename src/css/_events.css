@@ -1,8 +1,14 @@
 .show__container {
-    margin: 87px 200px;
+    margin: 87px 185px;
 }
 
 .show {
+    display: grid;
+    grid-template-columns: 0fr 2fr;
+    column-gap: 35px;
+}
+
+.show__arena {
     display: grid;
     grid-template-columns: 0fr 2fr;
     column-gap: 35px;
@@ -12,6 +18,12 @@
     display: flex;
     flex-direction: column;
 }
+
+.column__left {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .show img,
 .show__arena img {
@@ -31,6 +43,26 @@
     margin: 30px 0 0 0;
 }
 
+.show__location h4 {
+    margin: 60px 0 0 40px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    
+} 
+
+
+.show__location form span {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin: 0 0 0 40px;
+}
+
 .show span,
 .show__arena span {
     font-size: 15px;
@@ -39,6 +71,11 @@
     font-weight: 700;
     font-family: 'Montserrat';
   
+}
+
+.show__location i {
+    position: absolute;
+    top: 1650px;
 }
 
 
@@ -52,13 +89,19 @@
     margin: 0;
 }
 
+.show__arena .show__info {
+    padding: 95px 0 0 0;
+    max-width: 100ch;
+    
+}
 
 .show i,
 .show__arena i {
     color: var(--color-primary);
 }
 
-.show button {
+.show button,
+.show__arena button {
     float: right;
     padding: 10px;
     position: relative;
@@ -68,3 +111,9 @@
     font-size: 14px;
     line-height: 24px;
 }
+
+.show__container hr {
+    margin: 40px 0 40px 0;
+
+}
+
