@@ -1,0 +1,77 @@
+.container {
+        max-width: 1140px;
+        margin: 0 0 0 100px;
+}
+
+main {
+    background-color: #000;
+}
+
+.section__container {
+    margin: 0 100px 0 100px;
+}
+
+.galeria__images {
+    margin: 160px 0 200px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.band {
+    width: 260px;
+    height: 170px;
+}
+
+.luz {
+    width: 260px;
+    height: 260px;
+    margin-top: 30px;
+}
+
+.guitar {
+    width: 260px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.rocks {
+    width: 260px;
+    height: 340px;
+}
+
+.violao {
+    width: 260px;
+    height: 255px;
+    margin-top: 30px;
+}
+
+
+.sing {
+    width: 260px;
+    height: 280px;
+}
+
+.people {
+    width: 260px;
+    height: 170px;
+    margin-top: 30px;
+}
+
+.art {
+    width: 260px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.face {
+    width: 260px;
+    height: 200px;
+}
+
+.park {
+    width: 260px;
+    height: 435px;
+    margin-top: 30px;
+}
+
