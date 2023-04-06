@@ -1,10 +1,19 @@
 .container {
-        max-width: 1140px;
+    max-width: 1140px;
+}
+
+@media screen and (min-width: 1280px){
+    .container {
         margin: 0 0 0 100px;
+    }
 }
 
 .section__container {
     margin: 0 100px 0 100px;
+}
+
+.color {
+    background-color: #000;
 }
 
 .galeria__images {

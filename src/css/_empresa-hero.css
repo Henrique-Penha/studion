@@ -1,0 +1,46 @@
+.empresa-hero {
+    position: relative;
+    height: 34.625rem;
+}
+
+.empresa-hero__background {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    object-position: center;
+}
+
+.empresa-hero__copy {
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+    width: 50vw;
+    padding: 7rem 1.875rem;
+}
+
+.empresa-hero__copy h4 {
+    text-transform: uppercase;
+    color: var(--color-primary);
+    letter-spacing: 4px;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.empresa-hero__copy h2 {
+    margin: 0;
+    margin-bottom: 3rem;
+    font-size: 7.5rem;
+    line-height: 80px;
+    letter-spacing: -.3125rem;
+    color: var(--color-primary);
+}
+
+.empresa-hero__copy p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.875rem;
+    color: var(--color-copy--alt);
+    max-width: 50ch;
+}
