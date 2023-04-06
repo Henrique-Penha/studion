@@ -46,19 +46,22 @@
     </nav>
 
     <header>
-        <img src="./images/enterprise.jpg" alt="enterprise">
-
-        <div>
-            <h2>.empresa</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis
-                condimentum. Aliquam nonummy auctor massa
-            </p>
+        <div class="empresa-hero">
+            <img src="./images/enterprise.jpg" class="empresa-hero__background">
+            <div class="container empresa-hero__container">
+                <div class="empresa-hero__copy">
+                    <h2>.empresa</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis
+                        condimentum. Aliquam nonummy auctor massa
+                    </p>
+                </div>
+            </div>
         </div>
     </header>
 
     <main>
-        <section>
-            <div>
+        <section class="container empresa-info__container">
+            <div class="empresa__text">
                 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -70,22 +73,31 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat. Duis aute irure dolor in reprehenderit in voluptate.
                 </span>
+
             </div>
-
-            <img src="./images/man.png" alt="Man">
-            <img src="./images/quadrado.png" alt="Molde">
-            <img src="./images/quadrado.png" alt="Molde">
-            <img src="./images/quadrado.jpg" alt="Forma">
+            <img src="./images/man.png" alt="Man" class="photo__man">
+            <img src="./images/quadrado.png" alt="Molde" class="photo__molde">
+            <img src="./images/quadrado.png" alt="Molde" class="photo__mold">
+            <img src="./images/quadrado.jpg" alt="Forma" class="photo__mol">
         </section>
-            
-        <section>
+
+        <section class="marcas">
             <h4>Quem Confia no nosso trabalho</h4>
-            <img src="./images/logos.png" alt="Logos">
+
+            <img src="./images/logos.png" alt="Logos" class="logo">
 
         </section>
-        
-        <section>
-            <iframe href="https://www.youtube.com/watch?v=ez1iu-zx7eE"></iframe>
+
+        <section class="container video">
+            <iframe 
+                width="900" 
+                height="515" 
+                src="https://www.youtube.com/embed/qvz28xRPT0w"
+                title="YouTube video player"    
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
         </section>
 
     </main>

@@ -1,0 +1,83 @@
+.empresa-info__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+.empresa__text h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+    max-width: 25ch;
+}
+
+.empresa__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 29ch;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.photo__man {
+    position: relative;
+    height: 650px;
+    justify-self: center;
+}
+
+.photo__molde {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 700px;
+    top: 800px;
+}
+
+.photo__mold {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 950px;
+    top: 634px;
+}
+
+.photo__mol {
+    position: absolute;
+    left: 650px;
+    top: 960px;
+}
+
+.marcas {
+    background-color: var(--color-primary);
+}
+
+.marcas h4 {
+    display: grid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    justify-items: center;
+    margin: unset;
+    padding: 50px;
+}
+
+.logo {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    padding: 0px 80px 80px 80px;
+}
+
+.video {
+    display: grid;
+    justify-content: center;
+    margin: 100px 50px 100px 100px
+}
