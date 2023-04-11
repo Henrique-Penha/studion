@@ -1,16 +1,16 @@
-.empresa-hero {
+.depoimentos-hero {
     position: relative;
     height: 34.625rem;
 }
 
-.empresa-hero__background {
+.depoimentos-hero__background {
     position: absolute;
     width: 100%;
     height: 90vh;
 
 }
 
-.empresa-hero__copy {
+.depoimentos-hero__copy {
     position: absolute;
     bottom: 0;
     right: 160px;
@@ -18,7 +18,17 @@
     padding: 7rem 1.875rem;
 }
 
-.empresa-hero__copy h2 {
+.depoimentos-hero__copy h4 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: var(--color-primary);
+}
+
+.depoimentos-hero__copy h2 {
     margin: 0;
     margin-bottom: 3rem;
     font-size: 5.25rem;
@@ -27,7 +37,7 @@
     color: var(--color-primary);
 }
 
-.empresa-hero__copy p {
+.depoimentos-hero__copy p {
     margin: 0;
     font-size: 15px;
     line-height: 1.875rem;
