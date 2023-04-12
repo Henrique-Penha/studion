@@ -1,6 +1,6 @@
-.slide{
+.slide__dep{
     background-color: var(--color-primary);
-    height: 770px;
+    height: 700px;
 }
 
 .slide__copy__dep__container {
@@ -48,9 +48,9 @@
     padding: 30px;
 }
 
-.slide__background-image {
-    width: 250px;
-    height: 250px;
+.slide__background-image-dep {
+    width: 220px;
+    height: 220px;
     display: flex;
     margin-top: 80px;
     margin-left: 550px;

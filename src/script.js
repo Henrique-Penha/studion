@@ -14,3 +14,16 @@ $(document).ready(() => {
     $('.slider').slick(slickOptions);
     $('.counter__number').counterUp(counterOptions);
 })
+
+$(document).ready(() => {
+  const slickOptions = {
+    autoplay: true,
+    dots: false,
+    dots: true,
+    prevArrow:
+      '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>;',
+    nextArrow:
+      '<button type="button" class="slick-next slider__next-arrow">Next</button>;'
+  };
+  $('.slider__dep').slick(slickOptions);
+})
