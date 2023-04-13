@@ -30,19 +30,14 @@
 }
 
 .slick-arrow {
-    display: none;
+    visibility: hidden;
 }
 
 @media screen and (min-width: 1280px){
     .slick-arrow {
-        display: block;
+        visibility: visible;
     }
 }
-
-.slick-arrow {
-    visibility: visible;
-  }
-
 
 .slide {
     position: relative;
@@ -198,7 +193,7 @@
     background-position: 40% top;
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 720px){
     .quote {
         background-attachment: fixed;
         background-size: cover;
@@ -213,7 +208,7 @@
     min-height: 80vh;
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 720px){
     .quote__container {
         align-items: center;
     }
