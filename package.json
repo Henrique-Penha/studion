@@ -19,6 +19,7 @@
   "author": "Henrique Penha",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "live-server": "^1.2.2"
   }
 }
